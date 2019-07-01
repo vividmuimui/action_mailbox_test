@@ -1,5 +1,6 @@
 class RepliesMailbox < ApplicationMailbox
-  MATCHER = /reply-(.+)@reply.example.com/i
+  MATCHER = /reply-(.+)@sandboxf889be3574f040839bcba558ab9e990f.mailgun.org/i
+  # MATCHER = /reply-(.+)@reply.example.com/i
 
   before_processing :require_user
 
